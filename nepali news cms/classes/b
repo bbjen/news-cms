@@ -1,0 +1,36 @@
+<?php
+class AdminEmailsVO
+	{
+		public $id;
+		public $email_address;
+		public $type;
+		
+		function __construct()
+			{
+			
+			}
+		
+		function formatFetchVariables()
+			{
+			$this->id = intval($this->id);
+			$this->email_address = $this->email_address;
+			$this->type = $this->type;
+			}
+		
+		function formatInsertVariables()
+			{
+			$this->id = intval($this->id);
+			$this->email_address = $this->email_address;
+			$this->type = $this->type;
+			}
+			
+		function __destruct()
+			{
+			unset($this->id);
+			unset($this->email_address);
+			unset($this->type);
+			
+			unset($this);
+			}
+	}
+?>

@@ -1,0 +1,51 @@
+<?php
+    $page = $_GET['jpg'];  
+	   switch($page){
+		   case "content"	:	include_once("pages/content.php");
+	  						   	break;
+		   case "contentSub":	include_once("pages/contentSub.php");
+	  						   	break;
+		   case "news"	 	:	include_once("pages/news.php");
+			   					break;
+		   case "contact"	:	include_once("pages/contactus.php");
+		   						break;
+		   case "interview"	:	include_once("pages/interview.php");
+		   						break;
+    	   case "interviewHome":include_once("pages/interviewHome.php");
+		   						break;								
+		   case "cartoon"	:	include_once("pages/cartoon.php");
+		   						break;	
+		   case "newsHome"	:	include_once("pages/newsHome.php");
+		   						break;	
+		   case "ylwpage"	:	include_once("pages/ylwpage.php");
+		   						break;	
+		   case "ylwpageProfile":	include_once("pages/ylwpageProfile.php");
+		   						break;	
+		   case "ylwpageCat":	include_once("pages/ylwpageCat.php");
+		   						break;
+			case "ylwpagemainCat":	include_once("pages/ylwpageMainCat.php");
+		   						break;
+		   case "gallery"	:	include_once("pages/gallery.php");
+		   						break;		
+    	   case "galleryHome":	include_once("pages/galleryHome.php");
+		   						break;
+    	   case "galleyPhoto":	include_once("pages/galleyPhoto.php");
+		   						break;		
+		   case "horoscopeHome":include_once("pages/horoscopeHome.php");
+		   						break;
+		   case "article"	   :include_once("pages/article.php");
+		   						break;
+    	   case "articleHome" : include_once("pages/articleHome.php");
+		   						break;
+		   case "searchHome":	include_once("pages/searchHome.php");
+		   						break;
+		   case "feedback":	include_once("pages/feedback.php");
+		   						break;
+		   case "thankyou":	include_once("pages/thankyou.php");
+		   						break;	
+		   case "feedbackAction": include_once("pages/feedbackAction.php");
+		   					      break;
+		   default			:   include_once("pages/home.php");
+		              	        break;
+		  }
+?>

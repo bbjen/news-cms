@@ -1,0 +1,112 @@
+.toolbar {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: white 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 7pt; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #d4d0c8
+}
+.toolbar2 {
+	BORDER-RIGHT: black 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 7pt; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #d4d0c8
+}
+.toolbar4 {
+	BORDER-TOP: white 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #d4d0c8
+}
+.theader2 {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonhighlight 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; OVERFLOW: hidden; BORDER-LEFT: buttonhighlight 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: buttonface
+}
+.theader3 {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonhighlight 1px solid; FONT-SIZE: 8pt; OVERFLOW: hidden; BORDER-LEFT: buttonhighlight 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; FONT-FAMILY: Arial; TEXT-OVERFLOW: ellipsis; BACKGROUND-COLOR: buttonface
+}
+.theader_bold {
+	BORDER-RIGHT: buttonshadow 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: buttonhighlight 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; BORDER-LEFT: buttonhighlight 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: buttonshadow 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: buttonface
+}
+.tcell2 {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 8pt; BORDER-LEFT-COLOR: #cccccc; PADDING-BOTTOM: 2px; OVERFLOW: hidden; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Arial
+}
+.tcell_left {
+	BORDER-RIGHT: #cccccc 1px solid; FONT-SIZE: 8pt; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP-COLOR: #cccccc; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Arial
+}
+.norm {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial
+}
+.normred {
+	FONT-SIZE: 8pt; COLOR: #ff0000; FONT-FAMILY: Arial
+}
+.normblue {
+	FONT-SIZE: 8pt; COLOR: #0000ff; FONT-FAMILY: Arial
+}
+.normbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #000000; FONT-FAMILY: Arial
+}
+.navnorm {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Verdana
+}
+.navnorm2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+.chatOnline {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #2b9b2c; FONT-FAMILY: Verdana; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+.chatOffline {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff0000; FONT-FAMILY: Verdana; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+.navnorm_trans {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 8pt; FILTER: alpha(opacity=80); BORDER-LEFT: black 1px solid; WIDTH: 100%; COLOR: #000000; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #c8eafc; TEXT-DECORATION: none; opacity: .80; moz-opacity: 0.8
+}
+.btitle {
+	FONT-SIZE: 18pt; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+.ptitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #000000; FONT-FAMILY:Georgia, "Times New Roman", Times, serif
+}
+.ptitle_white {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #ffffff; FONT-FAMILY: Helvetica
+}
+.head {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial
+}
+.headred {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff0000; FONT-FAMILY: Arial
+}
+.headblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #0000ff; FONT-FAMILY: Arial
+}
+.bighead {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #000000; FONT-FAMILY: Arial
+}
+.spans {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial
+}
+.seperator {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial
+}
+.link {
+	FONT-SIZE: 7pt; COLOR: #0000ff; FONT-FAMILY: Arial
+}
+.textbox {
+	
+}
+.bar {
+	FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Arial
+}
+.newstitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #666666; FONT-STYLE: normal; FONT-FAMILY: Verdana
+}
+.news {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #666666; FONT-STYLE: normal; FONT-FAMILY: Verdana
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+#foot{
+	xborder:1px solid red;	
+	width:1024px;
+	position:relative;
+}
+.lftfoot{
+	witdh:550px;
+	float:left;
+	xborder:1px solid green;
+}
+.rtfoot{
+	float:right;
+	text-align:right;
+	xborder:1px solid black;
+}
+

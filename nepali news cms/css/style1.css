@@ -1,0 +1,126 @@
+* { margin: 0; padding: 0; }
+body { font: 12px Verdana,Georgia, serif; }
+xhtml { overflow-y: scroll; }
+xa { text-decoration: none; }
+#page-wrap { width:470px; margin:0px auto; }
+
+.ul{
+	list-style: none;
+}
+.ul li a {
+	display: block;
+	xborder-bottom: 1px solid #666;
+	xpadding: 2px;
+	color:#40398a;
+	text-decoration: none;
+	padding-bottom:0px;
+	margin-bottom:0;
+	
+vertical-align:top;
+}
+.ul li a:hover { xbackground: #fe4902; color: white; display: block;
+	xborder-bottom: 1px solid #666;
+	xpadding: 2px;
+	text-decoration: none;
+	padding-bottom:0px;
+	margin-bottom:0;
+	}
+.ul li:last-child a { border: none; }
+
+#organic-tabs {
+	background: #eee;
+	padding: 4px;
+	margin: 0 0 0px 0;
+	-moz-box-shadow: 0 0 5px #666;
+	-webkit-box-shadow: 0 0 5px #666;
+}
+
+#explore-nav {
+	overflow: hidden;
+	margin: 0 0 5px 0;
+}
+#explore-nav li {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	width: 65px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+#explore-nav li.last { margin-right: 0; }
+#explore-nav li a { display: block; padding: 2px; background: #0067ac;  color: white; font-size: 12px; text-align: center; border: 0; }
+#explore-nav li a:hover { background-color:#f45000; }
+
+#jquerytuts, #core, #classics, #lst, #fst { display: none; }
+
+#explore-nav li#ex-featured a.current { background-color:#0067ac; color: white;
+xpadding:0 0 0 0;
+xheight:20px;}
+
+ul#featured li a:hover { 
+xbackground-color:#0F0;
+color:#F45000;
+text-decoration:none;
+padding-bottom:0px;
+vertical-align:top;
+}
+
+
+
+#explore-nav li#ex-core a.current{
+	background-color: #0067ac;
+	color: white;
+}
+
+ul#core li a:hover 
+{
+	xbackground-color:#0F0;
+color:#F45000;
+text-decoration:none;}
+#explore-nav li#ex-classics a.current, 
+{
+	background-color: #0067ac;
+	color: white;
+}
+
+ul#classics li a:hover
+{
+padding-bottom:0px;
+vertical-align:top;
+xbackground-color:#0F0;
+color:#F45000;
+text-decoration:none;
+}
+#explore-nav li#ex-jquery a.current {
+	background-color: #0067ac;
+	color: white; 
+}
+
+ul#jquerytuts li a:hover 
+{
+xbackground-color:#0F0;
+color:#F45000;
+text-decoration:none;
+}
+
+#explore-nav li#ex-lst a.current{
+	background-color: #0067ac;
+	color: white;
+}
+ul#lst li a:hover 
+{
+xbackground-color:#0F0;
+color:#F45000;
+text-decoration:none;
+}
+
+
+#explore-nav li#ex-fst a.current {
+	background-color: #0067ac;
+	color: white;
+}
+ul#fst li a:hover
+{
+xbackground-color:#0F0;
+color:#F45000;
+text-decoration:none;
+}

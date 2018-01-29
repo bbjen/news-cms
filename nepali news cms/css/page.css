@@ -1,0 +1,137 @@
+a, a img{
+	border: 0;
+	text-decoration: none;
+	outline: 0;
+}
+#jpg-wrap{
+	width:475px;
+	height:350px;
+	xborder: 1px solid  #90F;
+	padding:2px 2px 5px 20px;
+	float:left;
+	background: #FFF;
+	margin: 0 auto 0px;
+	position: relative;
+	border:0px solid #FF00FF;
+	
+}
+#col1{
+	width: 49%;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#col2{
+	width: 49%;
+	float: right;
+}
+h1{
+	font: bold 20px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: -2px;
+	margin: 20px 0;
+	text-align: left;
+}
+h2{ 
+	font: bold 20px Helvetica, Sans-Serif; 
+	letter-spacing: -1px; 
+	margin: 0 0 1px 0;
+}
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#40398A;
+}
+ul{
+	margin: 0 0 25px 25px;
+}
+ul li{
+	font: 15px Georgia, Serif;
+	margin: 0 0 8px 0;
+}
+#dl{
+	position: absolute;
+	top: 10px;
+	right: 0;
+	background: black;
+	color: white;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3px 6px;
+}
+#dl:hover{
+	background: #666;
+}
+
+/*
+    This stuff is for the TitleBlock Plugin
+*/
+.image{
+	position: relative;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.image h2{
+	position: absolute;
+	top: 220px;
+	left: 0;
+	width: 100%;
+}
+.image h2 span{
+	color: white;
+	font: bold 30px/40px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 6px 8px;
+}
+.image h2 span.spacer{
+	padding: 0 2px;
+	background: none;
+}
+/*
+    For Specific Slides
+*/
+#textSlide {
+	padding: 0px 0px;
+	xborder:1px solid #30F;
+	width:475px;
+	height:100px;
+	
+}
+#inner{
+	width:450px;
+	xborder:1px dotted #0FC;
+	padding:0 5px 0 5px;
+	xfloat:right;
+}
+#inner_right{
+	width:260px;
+	float:left;
+	border:1px solid green;
+}
+#textSlide h2{
+	font: 14px Georgia, Serif;
+}
+#textSlide h2 a{
+	font: 14px Georgia, Serif;
+	font-weight:bold;
+	text-decoration:none;
+	color:#333;
+}
+#textSlide h2 a:hover{
+	font: 14px Georgia, Serif;
+	font-weight:bold;
+	text-decoration:none;
+	color:#333;
+}
+#textSlide h4{
+	text-transform: uppercase;
+	font: 15px Georgia, Serif;
+	margin: 10px 0;
+}
+#textSlide ul{
+	list-style: disc;
+	margin: 0 0 0 200px;
+}
+#textSlide ul li{
+	display: list-item;
+}

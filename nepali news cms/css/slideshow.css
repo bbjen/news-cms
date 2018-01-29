@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+a img {
+	border:none;
+}
+.jcarousel-container {
+	position: relative;
+	clear:both;
+	width:510px;
+	margin:10px auto 0 auto;
+	padding:0 40px;
+}
+.jcarousel-clip {
+	z-index: 2;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+.jcarousel-list {
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+.jcarousel-item {
+	float: left;
+	list-style: none;
+	/* We set the width/height explicitly. No width/height causes infinite loops. */
+ 
+  width:80px;
+}/**
+ *  Horizontal Buttons
+ */
+.jcarousel-next-horizontal {
+	position:absolute;
+	top:10px;
+	right:5px;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background:  transparent url(../images/jcarousel_next.png) no-repeat 0 0;
+}
+.jcarousel-next-horizontal:hover {
+	background-position: -32px 0;
+}
+.jcarousel-next-horizontal:active {
+	background-position: -64px 0;
+}
+.jcarousel-next-disabled-horizontal, .jcarousel-next-disabled-horizontal:hover, .jcarousel-next-disabled-horizontal:active {
+	cursor: default;
+	background-position: -96px 0;
+}
+.jcarousel-prev-horizontal {
+	position:absolute;
+	top:10px;
+	left:5px;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background: transparent url(../images/jcarousel_prev.png) no-repeat 0 0;
+}
+.jcarousel-prev-horizontal:hover {
+	background-position: -32px 0;
+}
+.jcarousel-prev-horizontal:active {
+	background-position: -64px 0;
+}
+.jcarousel-prev-disabled-horizontal, .jcarousel-prev-disabled-horizontal:hover, .jcarousel-prev-disabled-horizontal:active {
+	cursor: default;
+	background-position: -96px 0;
+}
+#feature_gallery {
+	height:500px;
+	width:600px;
+	margin:auto;
+	display:block;
+	background-color: #F2F2F2;
+	padding: 10px;
+	border: 1px solid #DADADA;
+	 border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.ul#feature_gallery_pager {
+	display:block;
+	margin:auto;
+	overflow:hidden;
+	height:65px;
+}
+#feature_gallery ul.menu li a:hover {
+}
+.ul#feature_gallery_pager li a {
+	overflow:hidden;
+	width:80px;
+	height:60px;
+	padding:2px;
+	float:left;
+	display:block;
+}
+.ul#feature_gallery_pager li {
+	margin:0 2px;
+	padding:0 0 10px 0;
+}
+#feature_gallery ul.menu a.activeSlide {
+	background:url(../images/arrow.png) no-repeat 0 0;
+}
+#feature_gallery .bigimgs {
+	overflow:hidden;
+	background-color:#000;
+	height:330px;
+	width:500px;
+	border:2px solid #fff;
+	position:relative;
+	margin:0 auto;	 
+}
+#feature_gallery img.change {
+	width:500px;
+	position:relative;
+	
+}
+#feature_gallery img.thumb {
+	width:80px;
+	height:51px;
+}
+#output{
+width:500px;
+margin:1em auto;
+display:block;
+clear:both;}
+

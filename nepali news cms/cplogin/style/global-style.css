@@ -1,0 +1,179 @@
+/* CSS Document */
+body, form{padding:0px; margin:0px; font:normal 12px Arial, Helvetica, sans-serif; color:#333;}
+a:link, a:visited{color:#8C3232; text-decoration: none; font-size:11px;}
+a:hover{text-decoration:none;}
+h1{ font:bold 20px "Trebuchet MS", Tahoma, Arial; margin:10px 0px 10px 0px;}
+fieldset{ border:1px solid #ccc; padding:8px;}
+legend{ font:bold 16px "Trebuchet MS", Tahoma, Arial; margin:0px 10px 0px 10px; color:#8C3232;}
+/*@header starts*/
+
+#logotxt{font: bold 24px "Trebuchet MS", Tahoma, Arial; color:#f9f9f9;}
+#logo{
+	background-image: url(../images/logo.jpg);
+}
+.subhead{font-weight:bold; color:#263333; height:30px;}
+input.inptxt{padding:2px 4px 2px 4px; 	background-color: #C96565; background-repeat: repeat-x; color: #fff; font-size: 12px; }
+input.inptxt:hover{padding:2px 4px 2px 4px;	background-color: #8C3232; background-repeat: repeat-x; color: #fff; font-size: 12px; }
+.medium{font-size:11px;}
+table.dataListing{border:1px solid #ccc;}
+tr.fadeTd{background-color:#ccc;}
+tr.whiteTd{background-color:#efefef;}
+a.topLink, a.topLink:visited
+	{
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
+	padding:5px 10px 5px 10px;
+	border:1px solid #EFEFEF;
+	background-color:#0A546F;
+	text-decoration:none;	
+	margin-left:2px;
+	height:14px;
+	}
+	
+a.topLink:hover
+	{
+	color:#fff;
+	border:1px solid #4DA5F9;
+	background-color:#3978A8;
+	text-decoration:none;	
+	}
+/*@header ends*/
+
+/*@leftcolunm starts*/
+#l-colm{width:198px;}
+
+#button {
+        width: 198px;
+        margin-bottom: 2px;
+        font: bold 11px Tahoma, Arial, sans-serif;
+        color: #333;
+        }
+
+        #button ul {
+                list-style: none;
+                padding: 0px;
+				margin: 0px;
+				margin-top: auto;
+				border-bottom:1px solid #f9f9f9;
+				text-align:right;
+                }
+
+        #button ul li {
+				display: block;
+				border-right: 10px solid #CCC;
+				background-color: #EFEFEF;
+                margin-bottom:1px;
+                list-style: none;
+				padding:5px 10px 5px 10px;
+                }
+		
+		#button ul li#currentMenu
+				{ 
+				background-color:#ccc;
+				border-right:10px #8C3232 solid;
+				}
+		#button ul li:hover
+				{
+				background-color:#EFEFEF;
+				border-right:10px #8C3232 solid;
+				}
+        #button ul li a, #button ul li a:visited {
+                display: block;
+                color: #1c1c1c;
+                text-decoration: none;
+                width: 173px;
+                }
+
+       #button ul li a:hover {
+	   			display: block;
+               	color: #8C3232;
+                }
+
+      #current {
+	  			 display: block;
+                color: #fff;
+                text-decoration: none;
+                width: 173px;
+	  			/*display: block;
+                text-decoration: none;
+                width: 173px;
+				color:#fff;
+				border-right: 10px solid #CC0000;*/
+               	}
+/*@leftcolunm ends*/
+/*pagination*/
+.pagination{
+padding: 2px;
+text-align:center;
+}
+
+.pagination ul{
+margin: 0;
+padding: 0;
+text-align: center; /*Set to "right" to right align pagination interface*/
+font-size: 16px;
+}
+
+.pagination li{
+list-style-type: none;
+display: inline;
+padding-bottom: 1px;
+}
+
+.pagination a, .pagination a:visited{
+padding: 0 5px;
+border: 1px solid #8C3232;
+text-decoration: none; 
+color: #DB4105;
+}
+
+.pagination a:hover, .pagination a:active{
+border: 1px solid #8C3232;
+color: #fff;
+background-color: #DB4105;
+}
+
+.pagination a.currentpage{
+background-color: #DB4105;
+color: #FFF !important;
+border-color: #DB4105;
+font-weight: bold;
+cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+background-color: white;
+cursor: default;
+color: #929292;
+border-color: #DB4105;
+font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+font-weight: bold;
+}
+
+
+/*pagination*/
+
+/*@footer starts*/
+#footer{height:50px; width:100%; background-color: #999999; text-align: center; color:#f9f9f9; padding-top:15px;}
+
+/*@footer ends*/
+.field {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 1px;
+	padding: 1px;
+	border: 1px solid #666666;
+}
+.field: hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 1px;
+	padding: 1px;
+	border: 1px solid #333;
+}
+
